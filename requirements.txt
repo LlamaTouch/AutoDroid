@@ -1,0 +1,9 @@
+pyvis
+treelib
+pyyaml
+torch
+InstructorEmbedding
+sentence_transformers
+requests
+openai
+lmql
