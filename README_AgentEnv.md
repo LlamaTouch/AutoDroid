@@ -8,9 +8,7 @@ OPENAI_BASEURL= \
 python3 main_action_prediction.py
 ```
 
-To run tasks on AgentEnv, first 
-
-run the following commands:
+To run tasks on AgentEnv, first download AgentEnv, then run the following commands:
 
 ```bash
 AGENTENV_PATH= \
