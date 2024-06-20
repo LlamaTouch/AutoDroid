@@ -204,4 +204,8 @@ def run_on_agentenv(
 
 
 if __name__ == "__main__":
-    run_on_agentenv(device=DEVICE, task_metadata_filepath=TASK_METADATA_PATH)
+    run_on_agentenv(
+        device=DEVICE, 
+        task_metadata_filepath=TASK_METADATA_PATH,
+        first_n_episodes=10,
+    )
