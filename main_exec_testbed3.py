@@ -24,7 +24,7 @@ emulator_controller_args = {
         "port" : "5554",        # If port is occupied, please switch to 5556, 5558... and so forth
         "no-window" : "false",  # Change this to "true" to run the emulator without GUI.
     }
-first_n_episodes=10
+first_n_episodes=os.environ.get("FIRST_N_EPISODES", 10)
 
 response = requests.get(TASK_METADATA_URL)
 with open(TASK_METADATA_PATH, "w") as f:
